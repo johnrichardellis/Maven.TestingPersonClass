@@ -8,7 +8,8 @@ public class Person {
     private int age;
 
     public Person() {
-
+        this.name = "";
+        this.age = 2147483647;
     }
 
     public Person(int age) {
